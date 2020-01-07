@@ -64,8 +64,6 @@ trait PaymentMethod
 
     public function paymentMethodLenght()
     {
-        print_r($this->paymentMethod);
-        exit();
         return 2;
     }
 }
